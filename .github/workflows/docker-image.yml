@@ -5,9 +5,9 @@
 
 name: Publish Docker image
 
-on:
-  release:
-    types: [published,released]
+on: [workflow_dispatch]
+#  release:
+#    types: [published,released]
 
 jobs:
   push_to_registry:
